@@ -1,0 +1,14 @@
+- name: Install Jenkins, Gitlab on Ubuntu 18.04
+  hosts: jenkins_gitlab
+  become: true 
+  # gather_facts: false 
+  roles:
+    - role-java
+    - role-gitlab
+    - role-jenkins
+    
+- name: Install AWX on RedHat 7.9
+  hosts: redhad
+  become: true  
+  roles:
+    - role-awx

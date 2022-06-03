@@ -1,0 +1,2 @@
+image: danglm.azurecr.io/database:latest
+nodePort: 30002

@@ -1,0 +1,10 @@
+# location        = "australiacentral"
+vm_count        = 1
+vm_name         = "redhat7"
+vm_image_string = "RedHat/RHEL/7lvm-gen2/latest"
+vm_size         = "Standard_DC4s_v3"
+vm_location     = "centralus"
+# rg_name         = "assignment3"
+rg_tag          = "Production"
+admin_username  = "admin1706"
+admin_password  = "Password123!"

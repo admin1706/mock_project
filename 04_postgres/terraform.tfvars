@@ -1,0 +1,8 @@
+location        = "eastus2"
+vm_name         = "danglmpostgres"
+vm_size         = "Standard_DC4s_v3"
+vm_location     = "centralus"
+rg_name         = "assignment3"
+rg_tag          = "Production"
+admin_username  = "admin1706"
+admin_password  = "Password123!"

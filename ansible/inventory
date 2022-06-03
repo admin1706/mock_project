@@ -1,0 +1,7 @@
+ubuntu ansible_host= ansible_connection=ssh ansible_user=admin1706 ansible_ssh_pass=Password123!
+redhat ansible_host= ansible_connection=ssh ansible_user=admin1706 ansible_ssh_pass=Password123!
+
+[jenkins_gitlab]
+ubuntu
+[awx]
+redhat
